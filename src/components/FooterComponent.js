@@ -29,6 +29,11 @@ function Footer(props){
                         Alasdair Selmes 
                     </div>
                 </div>
+                <div className="row copyright">
+                    <div className="col">
+                        <a target="_blank" rel="noreferrer" href="https://icons8.com/icons/set/laptop">Laptop icon</a> icon by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+                    </div>
+                </div>
             </div>
         </footer>
     );
