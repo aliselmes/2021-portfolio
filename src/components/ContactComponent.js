@@ -4,7 +4,7 @@ import { Button } from 'reactstrap';
 function Contact(props) {
     return(
         <section id="contact-section">
-            <div className="container pt-1 pb-5">
+            <div className="container py-5">
                 <div className="row my-3">
                     <div className="col">
                         <h1>CONTACT</h1>
