@@ -37,14 +37,14 @@ p a {
   color: white;
 }
 
-#contact-btn {
+#contact-btn, #resume-btn {
   color: white;
   border: 2px solid white;
   font-weight: bold;
   border-radius: 0;
 }
 
-#contact-btn:hover {
+#contact-btn:hover, #resume-btn:hover {
   color: #6495ED;
   background-color: white;
 }
@@ -54,14 +54,14 @@ p a {
   color: #fff;
 }
 
-#profile-img
+#profile-img, .project-img
 {
     position:relative;
     -webkit-box-shadow:0 5px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 5px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 5px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
-#profile-img:before, #profile-img:after
+#profile-img:before, #profile-img:after, #pro
 {
   content:"";
     position:absolute;
@@ -87,6 +87,46 @@ p a {
             transform:skew(8deg) rotate(3deg);
 }
 
+.project-img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.site-btn button {
+  color: #6495ED;
+  border: 2px solid #6495ED;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.site-btn button:hover {
+  color: white;
+  background-color: #6495ED;
+  border: 2px solid white;
+}
+
+.git-btn button {
+  color: #6495ED;
+  font-weight: bold;
+  border-radius: 0;
+  background-color: white;
+  border: none;
+}
+
+.git-btn button:hover {
+  background-color: white;
+  color:#6495ED;
+  transform: translateX(3px);
+  transition: all .3s linear;
+}
+
+.project-img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .site-footer {
   background-color: #343a40;
 }
@@ -95,7 +135,7 @@ p a {
   color: #6c757d;
 }
 
-.footer-icon:hover {
+.footer-icon:hover, .github-link:hover {
   transform: translateY(-3px);
   transition: all .3s linear;
 }
@@ -119,6 +159,12 @@ p a {
       color: #fff;
       clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
       padding-bottom: 10%;
-    }    
+    }
+
+    #contact-section {
+    clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+    padding: 5rem 0 1rem;  
+    }
 
   }
+ 

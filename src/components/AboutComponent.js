@@ -19,7 +19,7 @@ function About(props) {
                         <p>Hi, I'm Alasdair. I'm a former languages teacher and non-profit professional who has recently made the jump into the tech sector. I am currently looking for my first full-time role as a developer.</p>
                         <p>I am a graduate of <a id="nucamp-link" href="https://www.nucamp.co/">Nucamp Coding Bootcamp</a> and have experience working in the MERN stack. I really enjoy using React to create visually appealing and user-friendly websites.</p>
                         <p>If you'd like to find out more about me, feel free to check out my resume below, or get in touch!</p>
-                        <Button>Resume</Button>
+                        <a href="https://drive.google.com/file/d/17nisHLqnXfa6GhTjBHLWdQgFwRdorhDM/view?usp=sharing" target="_blank" rel="noreferrer"><Button outline className="btn" id="resume-btn">Resume</Button></a>
                     </div>
                 </div>
             </div>
