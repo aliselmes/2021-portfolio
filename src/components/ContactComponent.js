@@ -17,7 +17,7 @@ function Contact(props) {
                 </div>
                 <div className="row my-3">
                     <div className="col">
-                        <a href="mailto:a.selmes@gmail.com"><Button outline className="btn btn-lg" id="contact-btn">Get It Touch!</Button></a>
+                        <a href="mailto:a.selmes@gmail.com"><Button outline className="btn btn-lg" id="contact-btn">Get In Touch!</Button></a>
                     </div>
                 </div>
             </div>
@@ -25,4 +25,4 @@ function Contact(props) {
     );
 }
 
-export default Contact;
+export default Contact; 
