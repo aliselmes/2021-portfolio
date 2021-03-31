@@ -10,7 +10,7 @@ function RenderProject({project}) {
             <div className="col-12 col-md-5 text-left pr-xl-5">
                 <div className="row mb-3">
                     <div className="col">
-                        <h4>{project.name}</h4>
+                        <h4><strong>{project.name}</strong></h4>
                     </div>
                 </div>
                 <div className="row mb-3">
